@@ -1,0 +1,39 @@
+body {
+    background: rgb(241, 241, 241);
+    height: auto    ;
+}
+
+.auth-card {
+    height: auto;
+    padding: 50px;
+    width: 500px;
+    border-radius: 18px;
+}
+
+.container-cards {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 500px 500px;
+    text-align: center;
+}
+
+.container-cards .card {
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.footer-main {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.our-team-card {
+    width: 100%; 
+    background: #fff; 
+    height: auto;
+    border-radius: 10px;
+    padding: 30px;
+}
